@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # React-Hotel-Reservation-Site
 >>>>>>> 0055616d45279af798de8cb3ab8d87ef59ea6c62
+=======
+ 
+>>>>>>> b7bd472ba3a5540c051758ac729511c539245347
