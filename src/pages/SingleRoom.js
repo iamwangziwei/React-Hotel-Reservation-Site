@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
-import defaultbcg from '../images/room-1.jpeg'
-import Hero from '../Components/Hero'
-import Banner from '../Components/Banner'
-import {Link} from 'react-router-dom'
-import {RoomContext} from '../Context'
-
-
+import React, { Component } from "react";
+import defaultbcg from "../images/room-1.jpeg";
+import Hero from "../Components/Hero";
+import Banner from "../Components/Banner";
+import { Link } from "react-router-dom";
+import { RoomContext } from "../Context";
+import StyledHero from "../Components/StyledHero";
 export default class SingleRoom extends Component {
     
     constructor(props){
@@ -13,7 +12,7 @@ export default class SingleRoom extends Component {
         this.state = {
             slug:this.props.match.params.slug,
             defaultbcg
-        }
+        };
     }
     
     static contextType = RoomContext;
@@ -33,16 +32,16 @@ export default class SingleRoom extends Component {
             );
         }
 
-        const {name,description,capacity,size,price,extras,breakfast,pets,images} = room
+        const {name,description,capacity,size,price,extras,breakfast,pets,images} = room;
         return (
-            <Hero hero='roomsHero'>
+            <StyledHero img={images[0] || this.state.defaultbcg}>
                 <Banner title={`${name} room`}>
                     <Link to='/rooms' className='btn-primary'>
                         back to rooms
                     </Link>
                 </Banner>
-            </Hero>
-        )
+            </StyledHero>
+        );
     }
 }
 
