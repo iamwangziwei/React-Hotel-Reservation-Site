@@ -49,8 +49,34 @@ export default class SingleRoom extends Component {
                     {defaultImg.map((item, index) => (
                     <img key={index} src={item} alt={name} />))}
                 </div>
+                <div className="single-room-info">
+                    <article className="desc">
+                        <h3>
+                            details 
+                        </h3>
+                    <p>{description}</p>
+                    </article>
+                    <article className="info">
+                        <h3>info</h3>
+                        <h5>Price : {price}</h5>
+                        <h5>Size : {size} SQFT</h5>
+                        <h5>Max Capacity :  {capacity > 1 ? `${capacity} people` : `${capacity} person`}</h5>
+                        <h5>{pets ? "Pets Allowed" : "No Pets Allowed"}</h5>
+                        <h5>{breakfast && "Free Breakfast"}</h5>
+                    
+                    </article>
+                </div>
             </section>
-
+            <section className="room-extras">
+                <h5> Extras</h5>
+                <ul className="extras">
+                    {extras.map((item, index)=>
+                        {
+                        return <li key={index}>- {item}</li>
+                        }
+                    )}
+                </ul>
+            </section>
             </>
         ); //Adjacent JSX elements must be wrapped in an enclosing tag  while parsing file
 
