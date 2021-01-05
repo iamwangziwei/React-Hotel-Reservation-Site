@@ -70,7 +70,7 @@ export default class SingleRoom extends Component {
             <section className="room-extras">
                 <h5> Extras</h5>
                 <ul className="extras">
-                    {extras.map((item, index)=>
+                    {extras.map((item , index)=>
                         {
                         return <li key={index}>- {item}</li>
                         }
