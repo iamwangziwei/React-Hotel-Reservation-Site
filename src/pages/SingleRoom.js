@@ -19,29 +19,41 @@ export default class SingleRoom extends Component {
     //componentDidMount(){}
 
     render() {
-        const {getRoom} = this.context;
-        const room = getRoom(this.state.slug)
+        const { getRoom } = this.context;
+        const room = getRoom(this.state.slug);
 
-        if(!room){
-            return (<div className="error">
-                <h3>no such room..</h3>
-                <Link to='./room' className="btn-primary">
-                    back to rooms
+        if (!room) {
+            return (
+              <div className="error">
+                <h3> no such room could be found...</h3>
+                <Link to="/rooms" className="btn-primary">
+                  back to rooms
                 </Link>
-            </div>
+              </div>
             );
-        }
+          }
 
         const {name,description,capacity,size,price,extras,breakfast,pets,images} = room;
+        const [mainImg,...defaultImg] = images;
         return (
-            <StyledHero img={images[0] || this.state.defaultbcg}>
-                <Banner title={`${name} room`}>
-                    <Link to='/rooms' className='btn-primary'>
-                        back to rooms
-                    </Link>
-                </Banner>
+            <> 
+            <StyledHero img={images[0] || this.state.defaultBcg}>
+            <Banner title={`${name} room`}>
+                <Link to="/rooms" className="btn-primary">
+                back to rooms
+                </Link>
+            </Banner>
             </StyledHero>
-        );
+            <section className="single-room">
+                <div className="single-room-images">
+                    {defaultImg.map((item, index) => (
+                    <img key={index} src={item} alt={name} />))}
+                </div>
+            </section>
+
+            </>
+        ); //Adjacent JSX elements must be wrapped in an enclosing tag  while parsing file
+
     }
 }
 
