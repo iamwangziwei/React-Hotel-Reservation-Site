@@ -20,7 +20,7 @@ export default class Services extends Component {
     },
     {
         icon:<FaBeer/>,
-        title:"Strongest Bear",
+        title:"Strongest Beer",
         info:"wewedrwedwed"
     }
 ]}
