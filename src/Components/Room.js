@@ -1,7 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import defaultImg from '../images/room-1.jpeg'
+import {Link} from 'react-router-dom';
+import defaultImg from '../images/room-1.jpeg';
 import PropTypes from 'prop-types';
+import RoomContainer from '../Components/RoomContainer';
 
 export default function Room({room}) {
     const{name,slug, images,price} = room;
