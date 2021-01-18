@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-Hotel-Site/static/css/main.54d38678.chunk.css",
-    "main.js": "/React-Hotel-Site/static/js/main.60084719.chunk.js",
-    "main.js.map": "/React-Hotel-Site/static/js/main.60084719.chunk.js.map",
-    "runtime-main.js": "/React-Hotel-Site/static/js/runtime-main.1d415d98.js",
-    "runtime-main.js.map": "/React-Hotel-Site/static/js/runtime-main.1d415d98.js.map",
-    "static/js/2.a039fcb3.chunk.js": "/React-Hotel-Site/static/js/2.a039fcb3.chunk.js",
-    "static/js/2.a039fcb3.chunk.js.map": "/React-Hotel-Site/static/js/2.a039fcb3.chunk.js.map",
-    "static/js/3.516399b2.chunk.js": "/React-Hotel-Site/static/js/3.516399b2.chunk.js",
-    "static/js/3.516399b2.chunk.js.map": "/React-Hotel-Site/static/js/3.516399b2.chunk.js.map",
+    "main.js": "/React-Hotel-Site/static/js/main.57893724.chunk.js",
+    "main.js.map": "/React-Hotel-Site/static/js/main.57893724.chunk.js.map",
+    "runtime-main.js": "/React-Hotel-Site/static/js/runtime-main.03fbaa37.js",
+    "runtime-main.js.map": "/React-Hotel-Site/static/js/runtime-main.03fbaa37.js.map",
+    "static/js/2.53a9c169.chunk.js": "/React-Hotel-Site/static/js/2.53a9c169.chunk.js",
+    "static/js/2.53a9c169.chunk.js.map": "/React-Hotel-Site/static/js/2.53a9c169.chunk.js.map",
+    "static/js/3.35062719.chunk.js": "/React-Hotel-Site/static/js/3.35062719.chunk.js",
+    "static/js/3.35062719.chunk.js.map": "/React-Hotel-Site/static/js/3.35062719.chunk.js.map",
     "index.html": "/React-Hotel-Site/index.html",
     "static/css/main.54d38678.chunk.css.map": "/React-Hotel-Site/static/css/main.54d38678.chunk.css.map",
-    "static/js/2.a039fcb3.chunk.js.LICENSE.txt": "/React-Hotel-Site/static/js/2.a039fcb3.chunk.js.LICENSE.txt",
+    "static/js/2.53a9c169.chunk.js.LICENSE.txt": "/React-Hotel-Site/static/js/2.53a9c169.chunk.js.LICENSE.txt",
     "static/media/App.css": "/React-Hotel-Site/static/media/room-2.48c60181.jpeg",
     "static/media/details-1.c4851740.jpeg": "/React-Hotel-Site/static/media/details-1.c4851740.jpeg",
     "static/media/details-2.dc89255d.jpeg": "/React-Hotel-Site/static/media/details-2.dc89255d.jpeg",
@@ -32,9 +32,9 @@
     "static/media/room-9.18aabe9f.jpeg": "/React-Hotel-Site/static/media/room-9.18aabe9f.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d415d98.js",
-    "static/js/2.a039fcb3.chunk.js",
+    "static/js/runtime-main.03fbaa37.js",
+    "static/js/2.53a9c169.chunk.js",
     "static/css/main.54d38678.chunk.css",
-    "static/js/main.60084719.chunk.js"
+    "static/js/main.57893724.chunk.js"
   ]
 }
